@@ -94,3 +94,9 @@ impl MagicBall {
         self.ball[answer_number].to_string()
     }
 }
+
+impl Default for MagicBall {
+    fn default() -> Self {
+        Self::new()
+    }
+}
