@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.2](https://www.github.com/jerusdp/m8b/compare/v0.1.1...v0.1.2) (2021-10-28)
+
+
+### Bug Fixes
+
+* lines in readme ([0ce5eb6](https://www.github.com/jerusdp/m8b/commit/0ce5eb6c9664bfa58bbe738436425ccbe52a9a7d))
+
 ### [0.1.1](https://www.github.com/jerusdp/m8b/compare/v0.1.0...v0.1.1) (2021-10-28)
 
 
