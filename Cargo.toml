@@ -1,6 +1,6 @@
 [package]
 name = "m8b"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jeremiah Russell <jrussell@jerus.ie>"]
 edition = "2018"
 
