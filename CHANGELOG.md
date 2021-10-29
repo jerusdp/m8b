@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0](https://www.github.com/jerusdp/m8b/compare/v0.2.0...v0.3.0) (2021-10-29)
+
+
+### Features
+
+* add colored for prettier output ([1d52fb6](https://www.github.com/jerusdp/m8b/commit/1d52fb630b23d39c8f35b9c9d9aea222d201c1da))
+* Prettier output and capture of question ([0b2c71b](https://www.github.com/jerusdp/m8b/commit/0b2c71bf54c5d1aac78f87c84247504f9ac21c02))
+
 ## [0.2.0](https://www.github.com/jerusdp/m8b/compare/v0.1.2...v0.2.0) (2021-10-28)
 
 
