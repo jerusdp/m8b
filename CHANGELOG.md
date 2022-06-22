@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.3.1](https://www.github.com/jerusdp/m8b/compare/v0.3.0...v0.3.1) (2021-10-29)
+
+
+### Bug Fixes
+
+* rename of preset file to rust ([610d5fc](https://www.github.com/jerusdp/m8b/commit/610d5fc0f61979f672eff7177733e7e06bcc70c3))
+* update crates ([8bd7ce4](https://www.github.com/jerusdp/m8b/commit/8bd7ce45799c21bde578a6eb261f1929d8a849a8))
+
 ## [0.3.0](https://www.github.com/jerusdp/m8b/compare/v0.2.0...v0.3.0) (2021-10-29)
 
 
