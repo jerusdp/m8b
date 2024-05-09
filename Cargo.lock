@@ -100,7 +100,7 @@ checksum = "da2479e8c062e40bf0066ffa0bc823de0a9368974af99c9f6df941d2c231e03f"
 
 [[package]]
 name = "m8b"
-version = "0.3.2"
+version = "0.3.3"
 dependencies = [
  "colored",
  "rand",
