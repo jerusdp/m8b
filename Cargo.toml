@@ -1,8 +1,9 @@
 [package]
 name = "m8b"
-version = "0.3.2"
+version = "0.3.3"
 authors = ["Jeremiah Russell <jrussell@jerus.ie>"]
 edition = "2021"
+rust-version = "1.70.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
