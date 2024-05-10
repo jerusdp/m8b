@@ -100,3 +100,38 @@ impl Default for MagicBall {
         Self::new()
     }
 }
+
+// implement unit tests for the MagicBall struct
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_new() {
+        let magic_ball = MagicBall::new();
+        assert_eq!(magic_ball.ball.len(), 20);
+    }
+
+    #[test]
+    fn test_shake() {
+        let magic_ball = MagicBall::new();
+        let response = magic_ball.shake();
+        assert!(!response.is_empty());
+    }
+
+    #[test]
+    fn test_default() {
+        let magic_ball = MagicBall::default();
+        assert_eq!(magic_ball.ball.len(), 20);
+    }
+
+    #[test]
+    fn test_multiple_shakes() {
+        let magic_ball = MagicBall::new();
+        let mut responses = Vec::new();
+        for _ in 0..10 {
+            responses.push(magic_ball.shake());
+        }
+        assert_eq!(responses.len(), 10);
+    }
+}
