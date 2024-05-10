@@ -10,3 +10,11 @@ rust-version = "1.70.0"
 [dependencies]
 colored = "2.0.4"
 rand = "0.8.5"
+
+[dev-dependencies]
+codspeed-criterion-compat = "2.6.0"
+criterion = "0.5.1"
+
+[[bench]]
+name = "my_benchmark"
+harness = false
