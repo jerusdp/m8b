@@ -16,7 +16,7 @@ fn main() {
 
 fn get_the_question() -> String {
     let args: Vec<String> = env::args().collect();
-    println!("{:?}", args);
+    // println!("{:?}", args);
 
     let mut question = String::new();
 
