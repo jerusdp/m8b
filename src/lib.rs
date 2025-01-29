@@ -1,5 +1,5 @@
 use rand::seq::SliceRandom;
-use rand::thread_rng;
+
 use rand::Rng;
 use std::fmt;
 
@@ -83,14 +83,14 @@ impl MagicBall {
             Responses::YesDefinite,
             Responses::RelyOnIt,
         ];
-        let mut rng = thread_rng();
+        let mut rng = rand::rng();
         ball.shuffle(&mut rng);
         MagicBall { ball }
     }
 
     pub fn shake(&self) -> String {
-        let mut rng = thread_rng();
-        let answer_number = rng.gen_range(0..19);
+        let mut rng = rand::rng();
+        let answer_number = rng.random_range(0..19);
         self.ball[answer_number].to_string()
     }
 }
