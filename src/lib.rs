@@ -1,6 +1,6 @@
 use rand::seq::SliceRandom;
 
-use rand::Rng;
+use rand::RngExt;
 use std::fmt;
 
 #[derive(Debug)]
