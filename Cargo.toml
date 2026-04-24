@@ -12,7 +12,7 @@ colored = "3.1.1"
 rand = "0.10.1"
 
 [dev-dependencies]
-codspeed-criterion-compat = "4.4.1"
+codspeed-criterion-compat = "4.5.0"
 criterion = "0.8.2"
 
 [[bench]]
