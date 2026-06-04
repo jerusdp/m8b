@@ -158,9 +158,9 @@ checksum = "98cc8fbded0c607b7ba9dd60cd98df59af97e84d24e49c8557331cfc26d301ce"
 
 [[package]]
 name = "codspeed"
-version = "4.5.0"
+version = "4.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c83592369519f73d5731f9c91aa562e213a33cc14bb0f27ac2f5730fd1ecbcec"
+checksum = "57af92d1db7f6871b7e82c79cd87f2501db66f36b0eab924be6ea83dd6b2f3f3"
 dependencies = [
  "anyhow",
  "cc",
@@ -176,9 +176,9 @@ dependencies = [
 
 [[package]]
 name = "codspeed-criterion-compat"
-version = "4.5.0"
+version = "4.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ab07c1eb2dbfa1dfeca02f86d2325106886f5d41ea294adf3740f56da7bb2c1a"
+checksum = "1d31ae2e9ab23c29fa13bdfa06d012524176f5c0f4e25ec262cd829d947ebc5e"
 dependencies = [
  "clap",
  "codspeed",
@@ -189,9 +189,9 @@ dependencies = [
 
 [[package]]
 name = "codspeed-criterion-compat-walltime"
-version = "4.5.0"
+version = "4.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1601803d919d1bca7338b98948a319f0e40275c304516792aeabdd98db6dcd4f"
+checksum = "cc8605e40bab5114dcb0f76268e18880082b5798dec10757b5b58d2c3bbc7a1c"
 dependencies = [
  "anes",
  "cast",
